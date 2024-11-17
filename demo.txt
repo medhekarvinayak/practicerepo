@@ -1,0 +1,49 @@
+touch filename -> to create filename
+man commandname -> to get info of commandname
+ls -ltr
+------
+to execute file
+./filename.sh
+or
+sh filename.sh
+-----------
+chmod to grant permission[ root whichgroup yourpermissions]
+4 - read
+2 - write
+1 - execute
+example:
+chmod 777 filename.sh
+-----------------
+history
+------------
+cat to read file
+---------
+pwd
+---------
+mkdir foldername
+-----
+ps -ef | grep jboss
+awk -> [to get specific column dta returned by ps command]
+ps -ef | grep jboss | awk -F" " '{print $2}'
+--------
+set -x # debug mode
+set -e #exit script when there is error
+set -o pipefail #
+set -exo 
+---------
+to search in error logs
+curl logurl | grep ERROR
+wget to download file
+-------
+su -> switch user
+su username
+-------------
+find -> to find file
+find / -name filename
+===============
+traceroute -> troubleshoot network
+traceroute support.credenceanalytics.com
+===========
+logrotate
+==========
+
